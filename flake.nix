@@ -18,6 +18,8 @@
               qmk
               python310
               vimPlugins.qmk-nvim
+              via
+              vial
             ];
           };
         };
