@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BRIU, KC_LSFT , KC_A   , KC_S  , KC_D  , KC_F  , KC_G  ,  KC_H  , KC_J   , KC_K   , KC_L  , KC_SCLN, KC_QUOT  , KC_BSLS,
     KC_BRID,LSFT(KC_BSLS), KC_Z   , KC_X  , KC_C  , KC_V  , KC_B  ,  KC_N  , KC_M   , KC_COMM, KC_DOT, KC_SLSH, KC_LCTL  , KC_RCTL,
     KC_LGUI, KC_LCTL , KC_LALT   , LSFT(KC_COMM)  , LSFT(KC_DOT)  , RAISE  , KC_LSFT  ,  LOWER, NUM  , LSFT(KC_LBRC)   , LSFT(KC_LBRC), KC_RALT, KC_SLSH, LSFT(KC_B),
-    _______,_______,_______,    KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL,_______,_______,_______
+        KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL
 ),
 
 [_RAISE] = LAYOUT(
@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BRIU, KC_LSFT , KC_A   , KC_S  , KC_D  , KC_F  , KC_G  ,  KC_H  , KC_J   , KC_K   , KC_L  , KC_SCLN, KC_QUOT  , KC_BSLS,
     KC_BRID,LSFT(KC_BSLS), KC_Z   , KC_X  , KC_C  , KC_V  , KC_B  ,  KC_N  , KC_M   , KC_COMM, KC_DOT, KC_SLSH, KC_LCTL  , KC_RCTL,
     KC_LGUI, KC_LCTL , KC_LALT   , LSFT(KC_COMM)  , LSFT(KC_DOT)  , RAISE  , KC_LSFT  ,  LOWER, NUM  , LSFT(KC_LBRC)   , LSFT(KC_LBRC), KC_RALT, KC_SLSH, LSFT(KC_B),
-    _______,_______,_______,    KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL,_______,_______,_______
+        KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL
 ),
 
 [_LOWER] = LAYOUT(
@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BRIU, KC_LSFT , KC_A   , KC_S  , KC_D  , KC_F  , KC_G  ,  KC_H  , KC_J   , KC_K   , KC_L  , KC_SCLN, KC_QUOT  , KC_BSLS,
     KC_BRID,LSFT(KC_BSLS), KC_Z   , KC_X  , KC_C  , KC_V  , KC_B  ,  KC_N  , KC_M   , KC_COMM, KC_DOT, KC_SLSH, KC_LCTL  , KC_RCTL,
     KC_LGUI, KC_LCTL , KC_LALT   , LSFT(KC_COMM)  , LSFT(KC_DOT)  , RAISE  , KC_LSFT  ,  LOWER, NUM  , LSFT(KC_LBRC)   , LSFT(KC_LBRC), KC_RALT, KC_SLSH, LSFT(KC_B),
-    _______,_______,_______,    KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL,_______,_______,_______
+        KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL
 ),
 
 [_NUM] = LAYOUT(
@@ -50,6 +50,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BRIU, KC_LSFT , KC_A   , KC_S  , KC_D  , KC_F  , KC_G  ,  KC_H  , KC_J   , KC_K   , KC_L  , KC_SCLN, KC_QUOT  , KC_BSLS,
     KC_BRID,LSFT(KC_BSLS), KC_Z   , KC_X  , KC_C  , KC_V  , KC_B  ,  KC_N  , KC_M   , KC_COMM, KC_DOT, KC_SLSH, KC_LCTL  , KC_RCTL,
     KC_LGUI, KC_LCTL , KC_LALT   , LSFT(KC_COMM)  , LSFT(KC_DOT)  , RAISE  , KC_LSFT  ,  LOWER, NUM  , LSFT(KC_LBRC)   , LSFT(KC_LBRC), KC_RALT, KC_SLSH, LSFT(KC_B),
-    _______,_______,_______,    KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL,_______,_______,_______
+        KC_LCTL, KC_ENT, KC_LALT, KC_BSPC, KC_DEL, KC_RALT, KC_ENT, KC_RCTL
 )
 };
