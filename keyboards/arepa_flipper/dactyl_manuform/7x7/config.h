@@ -21,5 +21,5 @@
 #define SPLIT_MODS_ENABLE // This enables transmitting modifier state (normal, weak and oneshot) to the non primary side of the split keyboard. The purpose of this feature is to support cosmetic use of modifer state (e.g. displaying status on an OLED screen).
 #define SPLIT_ACTIVITY_ENABLE // This synchronizes the activity timestamps between sides of the split keyboard, allowing for activity timeouts to occur.
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+//#define MASTER_LEFT
+#define MASTER_RIGHT
