@@ -12,3 +12,4 @@ WS2812_DRIVER = vendor
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = vendor
+MCU= RP2040
