@@ -5,6 +5,7 @@ CONSOLE_ENABLE = yes       # Enable for debugging via `qmk console`
 COMMAND_ENABLE = no
 NKRO_ENABLE = yes
 BACKLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = yes
 WS2812_DRIVER = vendor
 AUDIO_ENABLE = no
 SERIAL_DRIVER = vendor

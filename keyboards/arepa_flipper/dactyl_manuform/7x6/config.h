@@ -1,12 +1,14 @@
 #pragma once
 
-// WS2812 RGB LED strip input and number of LEDs
-/* RGB light config
-    36 LEDs for notifications using 144/m led strip
-    30 LEDs around the bottom of the board using 60/m led strip
-    43 LEDs pointing up, in a grid
-*/
-//#define RGBLED_SPLIT { 36, 36 }
+#define WS2812_DI_PIN GP23
+#define RGBLIGHT_LED_COUNT 1
+
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_BREATHING
+
+
+
 
 #define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_DRIVER SIOD0
@@ -21,7 +23,7 @@
 #define SPLIT_MODS_ENABLE // This enables transmitting modifier state (normal, weak and oneshot) to the non primary side of the split keyboard. The purpose of this feature is to support cosmetic use of modifer state (e.g. displaying status on an OLED screen).
 #define SPLIT_ACTIVITY_ENABLE // This synchronizes the activity timestamps between sides of the split keyboard, allowing for activity timeouts to occur.
 
-#define MASTER_LEFT
+// #define MASTER_LEFT
 #define MASTER_RIGHT
 
 #define MATRIX_ROWS 12

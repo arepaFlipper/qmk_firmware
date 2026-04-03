@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Y  , KC_U   , KC_I   , KC_O  , KC_P   , KC_LBRC  , KC_RBRC,  // Row 10
         KC_H  , KC_J   , KC_K   , KC_L  , KC_SCLN, KC_QUOT  , KC_BSLS,  // Row 9
         KC_N  , KC_M   , KC_COMM, KC_DOT, KC_SLSH, MS_WHLU  , C(KC_TAB), // Row 8
-        NUM, LT(DIRECTIONS, KC_SPC), KC_HOME, KC_END, RCTL(KC_B), MS_WHLD, C(KC_B),  // Row 7
+        NUM, LT(DIRECTIONS, KC_SPC), MS_WHLU, MS_WHLD, RCTL(KC_B), MS_WHLD, C(KC_B),  // Row 7
         KC_DEL, KC_RALT, KC_ENT, RCTL(KC_RSFT), KC_NO, KC_NO, KC_NO     // Row 6 (bottom)
     ),
 
@@ -43,8 +43,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         // Right Half - Top to Bottom (7 keys per row)
         S(KC_6)  , S(KC_7)   , S(KC_8)   , S(KC_9)  , S(KC_0)   , KC_MINS  , KC_EQL,
-        KC_Y  , KC_HOME   , MS_WHLU   , KC_END  , KC_P   , KC_LBRC  , KC_RBRC,  // Row 10
-        KC_LEFT  , KC_DOWN   , KC_UP   , KC_RIGHT  , KC_SCLN, KC_QUOT  , KC_BSLS,  // Row 9
+        KC_Y  , KC_HOME   , MS_WHLU   , KC_END  , KC_P   , S(KC_LBRC)  , S(KC_RBRC),  // Row 10
+        KC_LEFT  , KC_DOWN   , KC_UP   , KC_RIGHT  , S(KC_SCLN), S(KC_QUOT)  , S(KC_BSLS),  // Row 9
         KC_N  , KC_PGUP   , MS_WHLD, KC_PGDN, KC_SLSH, MS_WHLU  , C(KC_TAB), // Row 8
         NUM, LT(DIRECTIONS, KC_SPC), KC_HOME, KC_END, RCTL(KC_B), MS_WHLD, KC_PRINT_SCREEN,  // Row 7
         KC_DEL, KC_RALT, KC_ENT, RCTL(KC_RSFT), KC_NO, KC_NO, KC_NO     // Row 6 (bottom)
