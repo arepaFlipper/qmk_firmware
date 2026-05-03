@@ -10,6 +10,7 @@
       x86_64-linux = let
         pkgs = import nixpkgs {
           system = "x86_64-linux"; # Adjust if you're on a different architecture
+          config.allowUnfree = true;
         };
       in
         {
