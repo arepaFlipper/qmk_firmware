@@ -10,6 +10,5 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 WS2812_DRIVER = vendor
 AUDIO_ENABLE = no           # Audio output
-SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = vendor
 MCU= RP2040
